@@ -1,5 +1,15 @@
 # @tabler/preview
 
+## 1.5.1
+
+### Patch Changes
+
+- 4ddc9e9: Updated the avatar list and brand card descriptions on the avatars preview page.
+- ac001f8: Updated `astro` to 7.3.1 and `@astrojs/vercel` to 11.0.10, and stopped installing optional peers such as `next`.
+- d9ed942: Fixed the unstyled message list on the `email-inbox` page: a hoverable list group with label dots, dates and row actions.
+- b4b10f9: Fixed the preview icons page to render all icons in production builds, keeping the 20-icon limit only for the dev server.
+- 99b318c: Updated the preview card descriptions to name CSS classes and markup instead of Astro component props.
+
 ## 1.5.0
 
 ### Minor Changes
